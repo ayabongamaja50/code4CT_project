@@ -1,0 +1,32 @@
+footer{
+position: relative;
+grid-column: 1 / 8 ;
+grid-row: auto;
+// bottom: -70%;
+// grid-row: 30 / auto;
+}
+.top-footer{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(1,1fr);
+
+.footer-col1{
+  grid-column: 1 / 2;
+
+}
+
+.footer-col2{
+  grid-column:2 / 3;
+}
+
+.footer-col2{
+  grid-column:3 / 4;
+}
+ul{
+list-style: square;
+}
+}
+
+.bottom-footer{
+    background-color:$firthColor;
+}

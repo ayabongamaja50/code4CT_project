@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- PULL IN JQUERY LIBRARY -->
+    <script src="js\jquery-3.3.1.js"> </script>
+    <script src="js\portfolio.js"></script>
+    <link type="text/css" rel="stylesheet" href="css\input.css">
+
+  </head>
+  <body>
+
+    <div class="header">
+ 		<div class="heading">
+ 			<h1>Individual courses</h1>
+ 		</div>
+ 		<div class="cart">
+ 			<i class="fa fa-shopping-basket fa-2x"></i>
+       <i class="fa fa-caret-down"></i><br>
+ 			<div class="total-text">
+ 				<p>Items</p>
+ 				<p id="items-basket"></p>
+ 			</div>
+ 		</div>
+
+ 		<div id="cart-items">
+ 			<ol id="list-item">
+ 			</ol>
+
+ 			<div class="total-text">
+ 					<p>Total: </p>
+ 					<p id="total-price"></p>
+ 			</div>
+ 		</div>
+
+
+
+ 	</div>
+
+ <br>
+ 	<div class="items-container">
+    <h2>Introductory Coding Courses</h2>
+ 		<!-- Item 1 -->
+ 		<div class="item">
+
+ 			<img src="images/coding-icon.png" height="100px" weight="100px">
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+ 			</div>
+ 			<div class="item-detail">
+ 				<h4>Intro to Coding: Web Pages</h4>
+        <p>Code a simple one-page website using HTML and JQuery.</p>
+ 				<div class="prices">
+          <p>R</p>
+        	<p class="price">250</p>
+
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- Item 2 -->
+ 		<div class="item">
+ 			<img src="images/speaker.png" height="100px" weight="100px">
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x"></i>
+ 			</div>
+ 			<div class="item-detail">
+ 				<h4>Intro to Coding: Music</h4>
+        <p>Code a song using SonicPi software on a Raspberry Pi computer</p>
+ 				<div class="prices">
+ 					<p>R</p>
+          <p class="price">250</p>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- Item 3 -->
+ 		<div class="item">
+ 			<img src="images/icons/play_button.png">
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x"></i>
+ 			</div>
+ 			<div class="item-detail">
+ 				<h4>Intro to Coding: Animation</h4>
+        <p>Create a 2D animation using coding language JavaScript.</p>
+ 				<div class="prices">
+        	<p>R</p>
+ 					<p class="price">250</p>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- Item 4 -->
+ 		<div class="item">
+ 			<!-- <img src=""> -->
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x"></i>
+ 			</div>
+ 			<div class="item-detaiCreate with Code: Musicl">
+ 				<h4>Create with Code: Web Pages</h4>
+        <p>Learn how the internet works and code a simple one-page website using HTML, CSS and JQuery</p>
+ 				<div class="prices">
+          <p>R</p>
+ 					<p class="price"> 960</p>
+
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- Item 5 -->
+ 		<div class="item">
+ 			<!-- <img src=""> -->
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x"></i>
+ 			</div>
+ 			<div class="item-detail">
+ 				<h4>Create with Code: Music</h4>
+        <p>Learn computer science principles by coding music with a Raspberry Pi computer.</p>
+ 				<div class="prices">
+        	<p>R</p>
+ 					<p class="price"> 960</p>
+
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- Item 6 -->
+ 		 <div class="item">
+ 			<!-- <img src=""> -->
+ 			<div class="overflow">
+ 				<i class="fa fa-cart-plus fa-5x"></i>
+ 			</div>
+ 			<div class="item-detail">
+ 				<h4>Create with Code: Animation</h4>
+          <p>Learn computer science principles by coding animations using JavaScript.</p>
+ 				<div class="prices">
+          <p>R</p>
+ 					<p class="price"> 960</p>
+
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+<br>
+<p>
+
+<div class="items-container">
+  <h2>Beginner Coding Courses</h2>
+  <!-- Item 1 -->
+  <div class="item">
+
+    <img src="images/icons/sitemaps.png" height="100px" weight="100px">
+    <div class="overflow">
+      <i class="fa fa-cart-plus fa-5x" id="basket"></i>
+    </div>
+    <div class="item-detail">
+      <h4>Beginner JavaScript</h4>
+      <p>Develop a basic proficiency in programming structures and methods in JavaScript so that you are able to create an interactive web application..</p>
+      <div class="prices">
+        <p>R</p>
+        <p class="price">1800</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="item">
+    <img src="images/icons/id_card.png" height="100px" weight="100px">
+    <div class="overflow">
+      <i class="fa fa-cart-plus fa-5x"></i>
+    </div>
+    <div class="item-detail">
+      <h4>Beginner Front End Web Development</h4>
+      <p>Develop a good proficiency in CSS and an understanding of web design principles so that you are able to create visually pleasing web pages.</p>
+      <div class="prices">
+        <p>R</p>
+        <p class="price">1800</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 3 -->
+  <div class="item">
+    <img src="images/icons/equalizer.png" height="100px" weight="100px">
+        <div class="overflow">
+      <i class="fa fa-cart-plus fa-5x"></i>
+    </div>
+    <div class="item-detail">
+      <h4>Beginner Python</h4>
+      <p>Develop a basic proficiency in programming principles and methods in Python.</p>
+      <div class="prices">
+        <p>R</p>
+        <p class="price">250</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</p>
+
+
+<div class="items-container">
+  <h2>Intermediate Coding Courses</h2>
+  <!-- Item 1 -->
+  <div class="item">
+
+    <img src="" height="100px" weight="100px">
+    <div class="overflow">
+      <i class="fa fa-cart-plus fa-5x" id="basket"></i>
+    </div>
+    <div class="item-detail">
+      <h4>Full Stack JavaScript</h4>
+      <p>Develop an understanding of the front and backend development environment and basic proficiency in server side JavaScript and object-oriented programming. By the end of the course you will be able to architect an application, control flow in an application and persist and retrieve data in a database.</p>
+      <div class="prices">
+        <p>R</p>
+        <p class="price">1800</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 2 -->
+  <div class="item">
+    <img src="" height="100px" weight="100px">
+    <div class="overflow">
+      <i class="fa fa-cart-plus fa-5x"></i>
+    </div>
+    <div class="item-detail">
+      <h4>Website Deployment</h4>
+      <p>Learn how to manage and deploy code to a server environment so that you can host your own web pages.</p>
+      <div class="prices">
+        <p>R</p>
+        <p class="price">1800</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+  <script>
+
+  $(function(){
+
+		$("#cart-items").slideUp();
+		$(".cart").on("click", function () {
+		$("#cart-items").slideToggle();
+		});
+
+		$("#items-basket").text("(" + ($("#list-item").children().length) + ")");
+
+
+		$(".item").on("click", function () {
+      $("#cart-items").slideDown();
+     setTimeout(function(){
+        $("#cart-items").slideUp();
+     }, 2000)
+			//add items to basket
+			$(this).each(function () {
+				var name = $(this).children(".item-detail").children("h4").text();
+				var remove = "<button class='remove'> X </button>";
+				var cena = "<span class='eachPrice'>" + (parseFloat($(this).children(".item-detail").children(".prices").children(".price").text())) + "</span>";
+				$("#list-item").append("<li>" + name + "&#09; - &#09;" + cena + "R" + remove + "</li>");
+
+				//number of items in basket
+				$("#items-basket").text("(" + ($("#list-item").children().length) + ")");
+				$("#items-basket").text();
+
+	        //calculate total price
+	        var totalPrice = 0;
+		        $(".eachPrice").each(function (){
+		          var cenaEach = parseFloat($(this).text());
+		          totalPrice+=cenaEach;
+		        });
+		        $("#total-price").text(totalPrice + "R");
+			});
+
+			//remove items from basket
+			$(".remove").on("click", function () {
+				$(this).parent().remove();
+
+		        var totalPrice = 0;
+		        $(".eachPrice").each(function (){
+		          var cenaEach = parseFloat($(this).text());
+		          totalPrice+=cenaEach;
+		        });
+		        $("#total-price").text(totalPrice + "R");
+				$("#items-basket").text("(" + ($("#list-item").children().length) + ")");
+			});
+		});
+})
+  </script>
+  </body>
+</html>
